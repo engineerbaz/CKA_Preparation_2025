@@ -19,3 +19,4 @@
 
 ## Kubernetes resource
 
+Pod, Deployment
