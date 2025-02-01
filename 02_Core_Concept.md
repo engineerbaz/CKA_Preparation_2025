@@ -20,3 +20,6 @@
 ## Kubernetes resource
 
 Pod, Deployment
+
+**Replication Controller** vs **Replica Set** 
+Selector (in form of matchLablels) is key difference two. As ReplicaSet can use existening pod using matchLablels
