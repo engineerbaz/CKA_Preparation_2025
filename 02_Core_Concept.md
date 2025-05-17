@@ -23,3 +23,6 @@ Pod, Deployment
 
 **Replication Controller** vs **Replica Set** 
 Selector (in form of matchLablels) is key difference two. As ReplicaSet can use existening pod using matchLablels
+
+Pod Capacity in a Node
+kubectl get node <node_name> -ojsonpath='{.status.capacity.pods}'
